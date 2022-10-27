@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"GoodMorning.sol": "GoodMorning"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"GoodMorning.sol": {
+			"keccak256": "0x86b4c9db8b303f1c092f9c7f5e586501940172c97231ecb325479f34e8fa2cc1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e6927d1a6519fc2dcc66895724ca79f3e42436640a931f96b77164f4859383c3",
+				"dweb:/ipfs/Qma9C1T8YdwphRhuNM269oyw4MBxxbCS9xFH4UxtCDMipo"
+			]
+		}
+	},
+	"version": 1
+}
