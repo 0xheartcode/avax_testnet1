@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"GoodMorning.sol": {
-			"keccak256": "0x86b4c9db8b303f1c092f9c7f5e586501940172c97231ecb325479f34e8fa2cc1",
+			"keccak256": "0xc213849461f759b5bf87ef2c242adacbeed981b9184a3b63c21e401f259195cd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e6927d1a6519fc2dcc66895724ca79f3e42436640a931f96b77164f4859383c3",
-				"dweb:/ipfs/Qma9C1T8YdwphRhuNM269oyw4MBxxbCS9xFH4UxtCDMipo"
+				"bzz-raw://3a88eae90ca0c0b55fb29729facac0b4bcc063283c6bcade9a6658e0b1da8014",
+				"dweb:/ipfs/QmYuTYB6xybttbFAvc7Vuwu6AmDLMGWm5mu5E35Hb2vKce"
 			]
 		}
 	},
