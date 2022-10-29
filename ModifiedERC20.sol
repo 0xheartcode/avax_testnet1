@@ -9,7 +9,7 @@ contract ERC20 is IERC20 {
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address=>uint)) public allowance;
     string public name = "POLKACAT";
-    string public symobl = "PLKT1";
+    string public symobl = "PLKT";
     uint8 public decimals = 18;
 
     function transfer(address recipient, uint amount) external returns (bool) {
@@ -35,7 +35,7 @@ contract ERC20 is IERC20 {
         balanceOf[recipient] += amount;
 
         emit Transfer(sender, recipient, amount);
-        return true;
+
     }
 
     function mint(uint amount) external {
@@ -44,10 +44,16 @@ contract ERC20 is IERC20 {
         emit Transfer(address(0), msg.sender, amount);
     }
 
-    function burn(uint amount) external {
+    function burn(uint amount) external returns (bool) {
         balanceOf[msg.sender] -= amount;
         totalSupply -= amount;
         emit Transfer(msg.sender, address(0), amount);
+        return true;
+    }
+
+    function helloWorldBool() external pure returns (bool) {
+
+        return true;
     }
 
 }
