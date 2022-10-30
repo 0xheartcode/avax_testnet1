@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EtherWallet/IERC20custom.sol": "ERC20Standard"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EtherWallet/IERC20custom.sol": {
+			"keccak256": "0xb4f53b615a378b3c9c957bfabd8696d0f00c74d1bbb099dba7ac60e49d81b26f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a5045c3c119b9c0f9f746ebd142d3f136ba1b2a4605ed7174dcead49d08b3f69",
+				"dweb:/ipfs/QmdSUQ6yinWdUn8Wc1VZANk2Nd9pb3tdGJ5APifG84pJ6J"
+			]
+		}
+	},
+	"version": 1
+}
