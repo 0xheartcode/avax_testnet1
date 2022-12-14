@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Force1.sol": "SendForce"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Force1.sol": {
+			"keccak256": "0x02d9fb5e1a4de18c5959a34fdc87a08926c876f8f416a6ed2c8783fcde9af400",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b1ca1d6b1ef4797b0ea4dcb60d506c63a0cd072061f0fd680604049f08c2ec84",
+				"dweb:/ipfs/QmPAT4FA1SZPPHFwhmHL5MbLcuicd3gdpfaEDs2rfcP6f3"
+			]
+		}
+	},
+	"version": 1
+}

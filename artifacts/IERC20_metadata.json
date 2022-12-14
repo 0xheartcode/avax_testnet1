@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.13+commit.abaa5c0e"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -202,9 +202,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"IERC20.sol": "IERC20"
+			"BlackTsuga.sol": "IERC20"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -216,12 +216,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"IERC20.sol": {
-			"keccak256": "0x1add1dcc455a336b7c05eb45b86b6ee1b5cd13bbfe0f40646a972329c8d87780",
+		"BlackTsuga.sol": {
+			"keccak256": "0x94da07bdf7df3f1487b4a98b46ff6937c15a8fceee9500ad2f41c63aed542460",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://99fbdc29d8414d73949374791489f5763b3d64ac4bbd9e86bc8d85578de46398",
-				"dweb:/ipfs/QmRiJytgyCtwmXis4tCRRMpXYinCBGHEaCEHubPKwgtNEq"
+				"bzz-raw://bbf7e41a1a17dc93f204e4f4dab47b4f78d84748ccca8811125d2c6bf4d0e42a",
+				"dweb:/ipfs/QmQ6EBzKfAPtDBG8Z7Yfacr283FEnEjbquk8MgGSKQaJ94"
 			]
 		}
 	},

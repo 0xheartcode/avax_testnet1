@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					}
+				],
+				"name": "createPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pair",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BlackTsuga.sol": "IUniswapV2Factory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BlackTsuga.sol": {
+			"keccak256": "0x94da07bdf7df3f1487b4a98b46ff6937c15a8fceee9500ad2f41c63aed542460",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bbf7e41a1a17dc93f204e4f4dab47b4f78d84748ccca8811125d2c6bf4d0e42a",
+				"dweb:/ipfs/QmQ6EBzKfAPtDBG8Z7Yfacr283FEnEjbquk8MgGSKQaJ94"
+			]
+		}
+	},
+	"version": 1
+}

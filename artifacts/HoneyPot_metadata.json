@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_a",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_b",
+						"type": "string"
+					}
+				],
+				"name": "equal",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_caller",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_action",
+						"type": "string"
+					}
+				],
+				"name": "log",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bank.sol": "HoneyPot"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bank.sol": {
+			"keccak256": "0x9ed57fff1867f1af5823669cdd8fd134efa030e887212039db9edfdb26f095bf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a72976b8f2f87eca0abbe2aa19dc682cc8339f5b6c89b919153e42c56fe68aa6",
+				"dweb:/ipfs/QmfFR93EN5TCrxW51zjviqMnno7D1Za4hHbMHmGXRiXmo6"
+			]
+		}
+	},
+	"version": 1
+}
