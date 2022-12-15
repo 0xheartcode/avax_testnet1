@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "pastBlockTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "spin",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SolidityByExample/2_Hacks/12_BlockTimestampManipulation.sol": "Roulette"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SolidityByExample/2_Hacks/12_BlockTimestampManipulation.sol": {
+			"keccak256": "0xb8ed69679eeec00e7072a7d11361664f3b428f0d0a974a47de0b71c5ae1233b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://10891c6988cf9670e9abee115765644ff3e477a6f1a50a0fd3eedea4c5d21d58",
+				"dweb:/ipfs/QmRa1qRfZj7vapYyAqeZpiQqKiZba2mN2y9rTUg6ffdSyZ"
+			]
+		}
+	},
+	"version": 1
+}

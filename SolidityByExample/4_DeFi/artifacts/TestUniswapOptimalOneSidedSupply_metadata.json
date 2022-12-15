@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "r",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "getSwapAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_tokenB",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amountA",
+						"type": "uint256"
+					}
+				],
+				"name": "zap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SolidityByExample/4_DeFi/3_UniswapV2OptimalOneSidedSupply.sol": "TestUniswapOptimalOneSidedSupply"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SolidityByExample/4_DeFi/3_UniswapV2OptimalOneSidedSupply.sol": {
+			"keccak256": "0x70dfa898a2f32aac053a38113875d14d13e7b44fdb3c625f839d072481b9be0a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9fd68d86bce235fa31d16e5ffe282e3eeb226f783557fc830e3193977b65f495",
+				"dweb:/ipfs/QmZos7BdWbNABcrfAXAChter4UCpeL1UKzi7hoawAE39Bk"
+			]
+		}
+	},
+	"version": 1
+}

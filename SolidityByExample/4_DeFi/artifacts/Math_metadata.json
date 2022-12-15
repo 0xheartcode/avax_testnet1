@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SolidityByExample/4_DeFi/15_StableSwapAMM.sol": "Math"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SolidityByExample/4_DeFi/15_StableSwapAMM.sol": {
+			"keccak256": "0x52a5503ff1a409d9463ac36c1c84eae4dcdca70c803cd9e6328b29ad56419103",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f23672469eb61fac379941c2cac89caa41a9bbfb0203eecf8402414202cf6930",
+				"dweb:/ipfs/QmeByviZVMtUZmYZ5uLEX1ijGrrjbyE268RUeLJrRB8LEC"
+			]
+		}
+	},
+	"version": 1
+}
