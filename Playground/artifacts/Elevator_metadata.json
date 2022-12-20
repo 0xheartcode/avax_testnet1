@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_floor",
+						"type": "uint256"
+					}
+				],
+				"name": "goTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Playground/ElevatorSolver.sol": "Elevator"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Playground/ElevatorSolver.sol": {
+			"keccak256": "0xb8a7ac6ef79701ee64cbb6ad2970bd69367e011067f1d3f098a7b85509010af6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://962ad481fd0dcedae44e6c2501c8b70b3a42dc8cd5233862987b6a126dc04537",
+				"dweb:/ipfs/QmeE8bgjXihkKXc8V3dxt9AVYFzxJJhNCLtFxzhJv2vRL2"
+			]
+		}
+	},
+	"version": 1
+}
