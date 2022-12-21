@@ -20,3 +20,7 @@ contract Counter {
         count -= 1;
     }
 }
+
+// https://solidity-by-example.org/first-app/
+// https://www.youtube.com/watch?v=zzT3a7BJxgw
+

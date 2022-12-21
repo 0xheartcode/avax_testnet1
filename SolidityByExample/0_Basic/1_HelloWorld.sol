@@ -5,3 +5,6 @@ pragma solidity ^0.8.13;
 contract HelloWorld {
     string public greet = "Hello World!";
 }
+
+// https://solidity-by-example.org/hello-world/
+// https://www.youtube.com/watch?v=g_t0Td4Kr6M

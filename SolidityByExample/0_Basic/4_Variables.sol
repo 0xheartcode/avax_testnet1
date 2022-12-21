@@ -30,3 +30,6 @@ There are 3 types of variables in Solidity
 global (provides information about the blockchain)
 
 */ 
+
+// https://solidity-by-example.org/variables/
+// https://www.youtube.com/watch?v=hl692-xJPUQ

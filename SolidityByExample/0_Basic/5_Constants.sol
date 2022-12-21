@@ -14,3 +14,6 @@ Constants are variables that cannot be modified.
 Their value is hard coded and using constants can save gas cost.
 
 */
+
+// https://solidity-by-example.org/constants/
+// https://www.youtube.com/watch?v=y5uiQ9IJhMc

@@ -53,3 +53,6 @@ contract Primitives {
     int public defaultInt; // 0
     address public defaultAddr; // 0x0000000000000000000000000000000000000000
 }
+
+// https://solidity-by-example.org/primitives/
+// https://www.youtube.com/watch?v=8Tj-Th_S7NU
