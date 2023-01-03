@@ -94,11 +94,11 @@
 			]
 		},
 		"2_Playground/PrivacyTest.sol": {
-			"keccak256": "0x42eed47823c9d9b03114f8ec4bb2296baa258c0f0e9f7e0ba3a4e308e95efb04",
+			"keccak256": "0x5fdf701598b6aac062e9b454d870f1e99d4d9241817eb8fc2153bf7722d4cf83",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://801f511309f10832c4eb706794178ffcb93c24b82ad29b68686f8e04aedd9915",
-				"dweb:/ipfs/QmR2VuSgVDWcAkSR8YNQBZLrjC2UTQAXvxWWQppVZd5Bb9"
+				"bzz-raw://d04233bd1f9370c87daf99c5582458fd20c3d7d2dbc317ff7f3b5fd9a7892502",
+				"dweb:/ipfs/QmXP5TSvyJRQ554auTThYXECNge92YEn1GpfbqE87XzKAw"
 			]
 		}
 	},

