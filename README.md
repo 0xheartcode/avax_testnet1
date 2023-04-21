@@ -12,8 +12,8 @@ Information on `folders/`:
 
 1. [LearnSolidity](0_LearnSolidity/)
 	Folder to get started with solidity along with a roadmap to follow to go from zero to one.
-	- 0_SolidityByExample
-		Spells copied from [Smart Contract Programmer](https://solidity-by-example.org/) with links to his Youtube channel.
+	- 0_SolidityByExample:
+		Spells copied from [Smart Contract Programmer](https://solidity-by-example.org/) with links to his Youtube channel. v 0.8.*
 
 2. [SafeSolidity](1_SafeSolidity/)
 	Everything related to solidity to security that is found relevant from the author. Features CTFs, Audits, and Guidelines. 
