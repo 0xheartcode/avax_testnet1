@@ -1,0 +1,3 @@
+[submodule "1_CTF/ethernaut"]
+	path = 1_CTF/ethernaut
+	url = https://github.com/OpenZeppelin/ethernaut
