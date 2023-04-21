@@ -1,10 +1,12 @@
-# 0xheart SOLIDITY GRIMOIRE
-## Spellbook for young and old magicians, from easiest to more advanced solidity spells.
+# 0x<3 SOLIDITY GRIMOIRE
+
+## Spellbook for young and old magicians, from easy to intermediate solidity spells.
+
 
 
 This book can be read in a specific order (note the numbers 0>1>2) or can simply be browsed for spell snippets. 
 
-This was an old repo that I recycled to be part portfolio, part 
+This was an old repo that the author brought back from the ether to be: part learning tool, part portfolio, part archive.  
 
 Information on `folders/`:
 
@@ -26,5 +28,5 @@ Thank you for browsing the grimoire, feel free to open an issue for suggestions,
 
 Note: The tools used to craft are mostly FOUNDRY and REMIX.
 
-~0x<3
+0x<3
 ...
