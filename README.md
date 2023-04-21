@@ -1,30 +1,30 @@
-REMIX DEFAULT WORKSPACE
+# 0xheart SOLIDITY GRIMOIRE
+## Spellbook for young and old magicians, from easiest to more advanced solidity spells.
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
 
-This workspace contains 3 directories:
+This book can be read in a specific order (note the numbers 0>1>2) or can simply be browsed for spell snippets. 
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+This was an old repo that I recycled to be part portfolio, part 
 
-SCRIPTS
+Information on `folders/`:
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+1. [LearnSolidity](0_LearnSolidity/)
+	Folder to get started with solidity along with a roadmap to follow to go from zero to one.
+	- 0_SolidityByExample
+		Spells copied from [Smart Contract Programmer](https://solidity-by-example.org/) with links to his Youtube channel.
 
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
+2. [SafeSolidity](1_SafeSolidity/)
+	Everything related to solidity to security that is found relevant from the author. Features CTFs, Audits, and Guidelines. 
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
+3. [MakeSolidity](2_MakeSolidity/)
+	Creative solidity solutions and code to different situations that are good to keep on hand.
 
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
+4. [UnsortedSolidity](3_UnsortedSolidity/)
+	Folder made simply to contain everything that is unsorted <(o.o)>
 
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+Thank you for browsing the grimoire, feel free to open an issue for suggestions, links are broken, code does not compile.
 
+Note: The tools used to craft are mostly FOUNDRY and REMIX.
+
+~0x<3
 ...
