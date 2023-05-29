@@ -1,4 +1,4 @@
-# 0x<3 SOLIDITY GRIMOIRE
+# 0x<3 Solidity Grimoire
 
 ## Spellbook for young and old magicians, from easy to intermediate solidity spells.
 
@@ -6,7 +6,7 @@
 
 This book can be read in a specific order (note the numbers 0>1>2) or can simply be browsed for spell snippets. 
 
-This was an old repo that the author brought back from the ether to be: part learning tool, part portfolio, part archive.  
+This was an old repo that the author brought back from the ether to be: part learning tool, part portfolio, part archive.
 
 Information on `folders/`:
 
